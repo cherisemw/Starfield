@@ -56,7 +56,7 @@ class Particle{
 class OddballParticle extends Particle {
   int myColor;
   OddballParticle() {
-    myX = 900;
+    myX = 0;
     myY = (int)(Math.random()* 800);
     myColor = 250;
   }
